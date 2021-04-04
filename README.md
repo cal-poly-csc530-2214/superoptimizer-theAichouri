@@ -26,3 +26,12 @@ In January 2015 I wrote [an article about discovering branchless code sequences 
 In September 2016 I gave [a presentation about superoptimisers](http://slides.com/dpt/aha#/) to my then colleagues at [Inside Secure](https://www.insidesecure.com/).
 
 In 2017 my friend Nick Gildea built a similar tool which [uses z3 for synthesis](https://github.com/nickgildea/z3_codegen).
+
+Mohamed Aichouri Notes:
+
+for this week, I read the "Massalin, Henry. "Superoptimizer: a look at the smallest program." ACM SIGARCH Computer Architecture News 15.5 (1987): 122-126.", Then I read the "Warren, Henry S. A Hacker’s Assistant."
+I tried going through the code and tried to understand it before running it. 
+I tested ./aha with multiple parameters (2,3,4 and 5).
+I tested ./aha 5  for the abs function and it took more than 12 min to find 112372 solution. 
+
+
